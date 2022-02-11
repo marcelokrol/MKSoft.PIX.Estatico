@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKSoft.PIX.Tests", "MKSoft.PIX.Tests\MKSoft.PIX.Tests.csproj", "{0DB363A0-4B6F-4B0C-943B-9845FDCC3B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKSoft.PIX", "MKSoft.PIX\MKSoft.PIX.csproj", "{D87A04E8-269B-4395-A761-0DA8B0157476}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB363A0-4B6F-4B0C-943B-9845FDCC3B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB363A0-4B6F-4B0C-943B-9845FDCC3B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB363A0-4B6F-4B0C-943B-9845FDCC3B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB363A0-4B6F-4B0C-943B-9845FDCC3B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D87A04E8-269B-4395-A761-0DA8B0157476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87A04E8-269B-4395-A761-0DA8B0157476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87A04E8-269B-4395-A761-0DA8B0157476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87A04E8-269B-4395-A761-0DA8B0157476}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C66F3D6-D38D-4646-8A86-01C1420DD587}
+	EndGlobalSection
+EndGlobal
