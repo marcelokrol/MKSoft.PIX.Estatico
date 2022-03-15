@@ -14,11 +14,11 @@ namespace MKSoft.PIX.Tests
       {
          GeradorPix g = new GeradorPix
          {
-            ChavePix = "32249888000197",
+            ChavePix = "49002221000198",
             CidadeLoja = "Rebouças-PR",
             DescricaoPagamento = "Pagamento de Teste",
             IdentificadorPix = "123456",
-            NomeLoja = "R.F. Comercio de Alimentos Eireli",
+            NomeLoja = "Empresa de teste",
             ValorPix = Convert.ToDecimal("0,01")
          };
 
@@ -37,7 +37,7 @@ namespace MKSoft.PIX.Tests
       {
          GeradorPixInterop g = new GeradorPixInterop
          {
-            ChavePix = "13751890000115",
+            ChavePix = "49002221000198",
             CidadeLoja = "Rebouças/PR",
             DescricaoPagamento = "Pagamento de Teste",
             IdentificadorPix = "123456",
@@ -45,7 +45,7 @@ namespace MKSoft.PIX.Tests
             ValorPix = Convert.ToDouble("1.856,52")
          };
 
-         const string aquivoQrCode = @"D:\dev\Pacotes_MKSoftwares\MKSoft.PIX\MKSoft.PIX.Tests\bin\Debug\QrCodePixInterop.bmp";
+         const string aquivoQrCode = @"D:\dev\MKSoft.PIX\MKSoft.PIX.Tests\bin\Debug\QrCodePixInterop.bmp";
          g.GerarImagemQrCode( aquivoQrCode);
 
          Assert.IsTrue(File.Exists(aquivoQrCode));
