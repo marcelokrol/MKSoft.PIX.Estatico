@@ -23,7 +23,7 @@ namespace MKSoft.PIX.Tests
          };
 
          File.WriteAllText(
-            @"D:\dev\Pacotes_MKSoftwares\MKSoft.PIX\MKSoft.PIX.Tests\bin\Debug\ChaveQrCode.txt",
+            @"D:\dev\MKSoft.PIX\MKSoft.PIX.Tests\bin\Debug\ChaveQrCode.txt",
             g.GerarChaveQrCode());
 
          const string aquivoQrCode = @"D:\dev\Pacotes_MKSoftwares\MKSoft.PIX\MKSoft.PIX.Tests\bin\Debug\QrCodePix.bmp";
